@@ -1,0 +1,164 @@
+body {
+  display: block;
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: crimson;
+}
+
+a:visited {
+  color: coral;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+}
+
+.header {
+  color: tomato;
+  width: 100%;
+}
+
+p {
+  flex: 1;
+  color: tomato;
+  width: 100%;
+}
+
+ul {
+  flex: 2;
+  color: coral;
+  width: 100%;
+}
+.hobbies {
+  width: 100%;
+}
+.career-goals {
+  width: 100%;
+}
+
+#favoriteColor {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-color: tomato;
+  cursor: pointer;
+}
+
+#favoritePlace {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-color: tomato;
+  cursor: pointer;
+}
+
+#favoriteRitual {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-color: tomato;
+  cursor: pointer;
+}
+
+.neighborhood-container {
+  display: flex;
+  justify-content:baseline;
+  /* align-items: flex-start; */
+}
+
+.neighborhood-column-0 {
+  flex: 0;
+  text-align: center;
+  padding: 20px;
+}
+.neighborhood-column-1 {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+.neighborhood-column-2 {
+  flex: 1;
+  text-align: end;
+  padding: 20px;
+  justify-content:right;
+}
+
+.restaurants {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+.divider {
+  background-color: tomato;
+  height: 100px;
+  width: 100%;
+}
+.divider-big{
+  background-color: #ddd;
+  height: 500px;
+  width: 100%;
+}
+.parks {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+.the-parks {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+
+.the-button-container {
+  display: flex;
+  justify-content: center;
+}
+.centered-button {
+  background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      /* Push the button to the right by using margin-left: auto; */
+      /* margin-left: auto; */
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">My Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <!-- insert hello world here -->
+
+      <img
+        src="/assessment-front-end-web/images/kisspng-rubber-duck-toy-bathtub-duck-transparent-png-5a718ed1012388.9877767315173915690047.png"
+        id="duck"
+      />
+
+      <p>
+        Welcome new students to DevMountain were acceptance is just one click
+        away! Here a D.M.(DevMountain) our campus is filled with people who have
+        the desire to better themselves.
+      </p>
+
+      <ul>
+        <li>You are Smart</li>
+        <li>You are Funny</li>
+        <li>You are a Good listener</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        <label>How did you hear about us?</label><br />
+        <input type="checkbox" id="google" name="source[]" value="Google" />
+        <label for="google">Google</label><br />
+        <input type="checkbox" id="friend" name="source[]" value="A friend" />
+        <label for="friend">A friend</label><br />
+        <input type="checkbox" id="other" name="source[]" value="Other" />
+        <label for="other">Other</label><br /><br />
+        <input type="submit" value="Go,Ducks!">
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
